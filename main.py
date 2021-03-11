@@ -1,7 +1,6 @@
 # import libraries
 from flask import Flask, render_template, request, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
-from datetime import datetime as dt
 
 # create flask application
 app = Flask(__name__)
